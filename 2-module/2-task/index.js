@@ -3,5 +3,7 @@
  * @param {Object} obj
  * @returns {Boolean}
  */
-function isEmpty(obj) {
+function isEmpty(schedule) {
+    for (let prop in schedule) {return false;}
+    return true;
 }

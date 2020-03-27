@@ -1,5 +1,7 @@
 let calculator = {
-  // ваш код
+        read:   function read(a, b) { calculator.a = a; calculator.b = b; },
+        sum:    function () { return calculator.a + calculator.b; },
+        mul:    function () { return calculator.a * calculator.b; }
 };
 
 // НЕ УДАЛЯТЬ СТРОКУ, НУЖНА ДЛЯ ПРОВЕРКИ
